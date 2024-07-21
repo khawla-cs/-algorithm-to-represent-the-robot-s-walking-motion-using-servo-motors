@@ -79,4 +79,4 @@ where you can program your gate using right commands to change the angle of each
 ### 9- Use a while loop
 where you icrementally change the angle just one or two degrees at a time and that is going to result is smoother motion.
 
-source: www.sciencebuddies.org
+reference: www.sciencebuddies.org
