@@ -1,10 +1,14 @@
 ## servo motor
+
+![تنزيل](https://github.com/user-attachments/assets/844f3550-1d76-4f24-9fdf-3f60bcf308c4)
+
+
 - Servo has three wires: brown is ground , red is power and orange is signal.
 - so connect the servo to the breadboard using pins, the brown would go to the ground bus, the red wire would go to the power bus, and the orange would go to one of the arduino's digital pins.
 
 - when using this many motors at once it's important to think about power. in a single Servo motor you can just power that motor directly from the arduino's 5 volt pin, how ever, that pin can only provide up to 1 amp and you may exceed that when when using this many motors at once, so even though the UNO provides the correct voltage it does not provide enough current and (you can't use it to directly power this many motors). instead you can use external Polymer battery and an external voltage regulator that has a higher current rating.
 
-## algorithm to control the servos :
+## Algorithm to represent the robot's walking motion (in four legs) using servo motors :
 ### 1- include the Servo library
 ```(#include <Servo.h>)```
 
@@ -75,4 +79,4 @@ where you can program your gate using right commands to change the angle of each
 ### 9- Use a while loop
 where you icrementally change the angle just one or two degrees at a time and that is going to result is smoother motion.
 
-source:https:www.sciencebuddies.org
+source: www.sciencebuddies.org
